@@ -7,12 +7,14 @@ const playerTwoMarker = "O"
 
 const playerOne={
     name: "arif",
-    marker: "X"
+    marker: "X",
+    score: 15
 }
 
 const playerTwo={
     name: "owasib",
-    marker: "O"
+    marker: "O",
+    score: 5
 }
 
 
@@ -24,6 +26,8 @@ function keepScore(){
         gameOver(playerTwo)
     }
 }
+
+keepScore()
 
 function gameOver(winningPlayer) {
     console.log("Congratulations!")
