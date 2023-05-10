@@ -9,3 +9,9 @@ const playerOne={
     name: "arif",
     marker: "X"
 }
+
+const playerTwo={
+    name: "owasib",
+    marker: "O"
+}
+
