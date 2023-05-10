@@ -15,3 +15,8 @@ const playerTwo={
     marker: "O"
 }
 
+
+function gameOver(winningPlayer) {
+    console.log("Congratulations!")
+    console.log(winningPlayer.name + " is the winner!")
+}
