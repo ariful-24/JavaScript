@@ -5,3 +5,6 @@ function Player(name, marker){
     this.marker = marker
     
 }
+
+const playerOne = new Player('arif','X')
+const playerTwo = new Player('owasib','O')
