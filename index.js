@@ -8,5 +8,10 @@ const myObject={
     }
 }
 
-console.log(myObject.otherProperty);
-console.log(myObject["obnoxious property"]);
+// console.log(myObject.otherProperty);
+// console.log(myObject["obnoxious property"]);
+
+const variable = 'property'
+console.log(myObject.variable);
+console.log(myObject[variable]);
+
