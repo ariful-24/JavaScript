@@ -8,4 +8,5 @@ const myObject={
     }
 }
 
-console.log(myObject.otherProperty)
+console.log(myObject.otherProperty);
+console.log(myObject["obnoxious property"]);
