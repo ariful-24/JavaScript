@@ -18,3 +18,8 @@ const playerOne = {
     name: "arif",
     marker: "X"
 }
+
+const playerTwo = {
+    name: "islam",
+    marker: "O"
+}
