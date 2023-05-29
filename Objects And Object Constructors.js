@@ -5,6 +5,6 @@ const myObject = {
 
     }
 }
-
-//console.log(myObject.property);
-console.log(myObject["obnoxious property"]);
+const variable = 'property'
+console.log(myObject.variable);
+console.log(myObject[variable]); // myObject('property')
