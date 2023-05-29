@@ -23,3 +23,7 @@ const playerTwo = {
     name: "islam",
     marker: "O"
 }
+
+function printName(player) {
+    console.log(player.name)
+  }
