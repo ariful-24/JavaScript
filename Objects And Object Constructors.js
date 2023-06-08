@@ -27,3 +27,6 @@ const playerTwo = {
 function printName(player) {
     console.log(player.name)
   }
+
+  console.log(playerOneName)
+console.log(playerTwoName)
